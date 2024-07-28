@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+.title{
+	font-family: cursive;
+	font-size: 70px;
+}
+
+.subtitle{
+	color: #222222;
+	font-family: cursive;
+	font-weight: bold;
+	font-size: 20px;
+	text-decoration: underline; /* 下線を引く */
+}
+
+body{
+	/* 背景色の設定*/
+	background: linear-gradient( #56C500, #fff);
+	height: 1000px;
+	
+	/*中央揃え*/
+	text-align: center;
+}
+ /*更新ボタンの装飾*/
+.postbtn{
+	background-color: #FF773E; /* 緑色の背景 */
+	    border: none; /* ボーダーを無くす */
+	    color: white; /* 白色のテキスト */
+	    padding: 10px 20px;  /*パディングを追加 */
+	    text-align: center; /* テキストを中央揃え */
+	    text-decoration: none; /* テキストの装飾を無くす */
+	    display: inline-block; /* インラインブロックにする */
+	    font-size: 15%; /* フォントサイズを設定 */
+	    margin: 4px 2px; /* マージンを設定 */
+	    cursor: pointer; /* ポインタをカーソルにする */
+	    border-radius: 4px; /* 角を丸くする */
+}
